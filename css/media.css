@@ -1,5 +1,53 @@
 /******MEDIA****+*/
-@media (max-width: 768px) { /***** TABLETA *****/
+@media screen and (min-width: 768px) and (max-width: 1940px){ /***** TABLETA *****/
+  .fa-bars{
+    visibility: hidden;
+  }
 
+}
+
+
+@media (max-width: 768px) { /***** TABLETA *****/
+  .fa-bars{
+    visibility: visible;
+    color: white;
+    text-decoration: none;
+    display: inline-flex;
+    padding: 20px 20px;
+    float: right;
+  }
+
+  .fa-bars:hover{
+    color: #edb015;
+  }
+
+  ul{
+    visibility: hidden;
+  }
+
+  .col-4,
+  .col-8{
+    width: 100%;
+  }
+
+  .col-3{
+    width: 80%;
+  }
+
+  button{
+    text-decoration: none;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: #edb015;
+    color: white;
+    width: 50%;
+    font-size: 25px;
+    outline: none;
+  }
+
+  header{
+    z-index: 1000;
+  }
 
 }

@@ -22,7 +22,7 @@ button:hover {
 }
 
 figure{
-
+  filter:opacity(70%);
 }
 
 figure:hover{
@@ -30,12 +30,11 @@ figure:hover{
 }
 
 footer{
-  height: 5em;
+  height: 4em;
   background-color: #5b5b5b;
   text-align: center;
-  padding: 2.2em;
+  padding: 1.8em;
   color: white;
-  margin-top: 3em;
 }
 
 header{
@@ -57,12 +56,12 @@ img{
 }
 
 .paragraph{
-  padding: 30px 40px;
+  padding: 2em 3em;
   text-align: left;
 }
 
 .card{
-  margin: 0 50px;
+  margin: 2em 3em;
   border-radius: 10px;
   border-style: inset;
 }
