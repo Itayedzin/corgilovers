@@ -9,7 +9,7 @@ button{
   text-decoration: none;
   padding: 15px;
   border: none;
-  border-radius: 15px;
+  border-radius: 10px;
   background-color: #edb015;
   color: white;
   width: 25%;
@@ -30,16 +30,16 @@ figure:hover{
 }
 
 footer{
-  height: 85px;
+  height: 5em;
   background-color: #5b5b5b;
   text-align: center;
-  padding: 20px;
+  padding: 2.2em;
   color: white;
-  margin-top: 30px;
+  margin-top: 3em;
 }
 
 header{
-  height: 55px;
+  height: 4em;
   background-color: #5b5b5b;
   position: fixed;
 }
@@ -49,10 +49,8 @@ h4{
 }
 
 img{
-  height: 200px;
-
+  height: 12em;
 }
-
 
 .nav-title{
   font-size: 20px;
@@ -60,15 +58,17 @@ img{
 
 .paragraph{
   padding: 30px 40px;
-  text-align: justify;
+  text-align: left;
 }
 
 .card{
-
   margin: 0 50px;
   border-radius: 10px;
   border-style: inset;
+}
 
+.card-img{
+  text-align: center;
 }
 
 .title{
@@ -91,10 +91,6 @@ img{
   background-position: center top;
 
 }
-
-/******MEDIA****+*/
-
-
 
 /******ESTILOS EN TEXTOS****+*/
 a {
