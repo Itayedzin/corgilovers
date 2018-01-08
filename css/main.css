@@ -1,0 +1,103 @@
+* { /*VALORES PARA ARRANCAR EL CÓDIGO CON MARGEN & PADDING EN CERO*/
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+button{
+  text-decoration: none;
+  padding: 15px;
+  border: none;
+  border-radius: 15px;
+  background-color: #edb015;
+  color: white;
+  width: 25%;
+  font-size: 25px;
+  outline: none;
+}
+
+button:hover {
+  background-color: #ed9d3b;
+}
+
+figure{
+
+}
+
+figure:hover{
+  filter: none;
+}
+
+footer{
+  height: 85px;
+  background-color: #5b5b5b;
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
+
+header{
+  height: 55px;
+  background-color: #5b5b5b;
+  position: fixed;
+}
+
+h4{
+  font-weight: bold;
+}
+
+img{
+  height: 300px;
+
+}
+
+.nav-title{
+  font-size: 20px;
+}
+
+.paragraph{
+  padding: 30px;
+  text-align: justify;
+}
+
+.title{
+  font-size: 45px;
+  color: #edb015;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  width: 100%;
+  padding-top: 5em;
+  text-align: center;
+}
+
+/******RECURSOS IMÁGENES INICIALES****+*/
+
+.back-img { /*fondo de pantalla 1*/
+  background-image: url('../assets/images/back.jpg');
+  background-repeat: no-repeat;
+  background-size: 1420px;
+  background-position: center top;
+
+}
+
+/******MEDIA****+*/
+
+
+
+/******ESTILOS EN TEXTOS****+*/
+a {
+  color: white;
+  text-decoration: none;
+  display: inline-flex;
+  padding: 20px 20px;
+}
+
+a:hover {
+  color: #edb015;
+}
+
+ul{
+  float: right;
+}
